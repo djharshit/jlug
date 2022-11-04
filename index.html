@@ -1,139 +1,413 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLUG WEBSITE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/316c132172.js" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <link rel="stylesheet" href="./animate.min.css">
 </head>
+<body>
+    <!-- <header class="text-gray-600 body-font" style="user-select: auto; background-color:rgba(199, 214, 219, 0.821);">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" style="user-select: auto;">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" style="user-select: auto;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24" style="user-select: auto;">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" style="user-select: auto;"></path>
+            </svg>
+            <span class="ml-3 text-xl" style="user-select: auto;">JLUG</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center" style="user-select: auto;">
+            <a class="mr-5 hover:text-gray-900 font-serif px-3" style="user-select: auto;">Home</a>
+            <a class="mr-5 hover:text-gray-900 font-serif px-3" href="#aboutUs" style="user-select: auto;">About Us</a>
+            <a class="mr-5 hover:text-gray-900 font-serif px-3" href="#team" style="user-select: auto;">Team</a>
+            <a class="mr-5 hover:text-gray-900 font-serif px-3" href="#pastEvents" style="user-select: auto;">Past Events</a>
+          </nav>
 
-<body id="page-top"><a class="menu-toggle rounded" href="#"><i class="fa fa-bars"></i></a>
-    <nav class="navbar navbar-light navbar-expand" id="sidebar-wrapper">
-        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler d-none" data-bs-target="#"></button>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav sidebar-nav" id="sidebar-nav">
-                    <li class="nav-item sidebar-brand"><a class="nav-link active js-scroll-trigger" href="#page-top">Brand</a></li>
-                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
-                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+        </div>
+      </header> -->
+
+
+      <!-- *****************************Header**************************** -->
+      <section class="header-main">
+        <nav>
+          
+          <!-- <input type="checkbox" id="check"> -->
+          <!-- <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label> -->
+          
+         
+             <a href="index.html"><img class="logo-main" src="images/logo-cropped-removebg.png" alt=""></a>
+            <div class="nav-links-main" id="nav-links-main">
+                
+                <ul>
+                    <li><a class="active-main" href="#">Home</a></li>
+                    <li><a href="#aboutUs">ABOUT US</a></li>
+                    <li><a href="#pastEvents">PAST EVENTS</a></li>
+                    <li><a href="#team">TEAM</a></li>
+                    <li><a href="#contactUs">CONTACT US</a></li>
+                    <li><a href="quiz.html">QUIZ</a></li>
                 </ul>
+                <!-- <label for="check" class="checkbtn">
+                  <i class="fa-solid fa-bars"></i>
+                </label> -->
             </div>
-        </div>
-    </nav>
-    <header class="d-flex masthead" style="background-image:url('assets/img/bg-masthead.jpg');">
-        <div class="container my-auto text-center">
-            <h1 class="mb-1">JEC Linux User Group</h1>
-            <h3 class="mb-5"><em>A Free Bootstrap Theme</em></h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#about">Find Out More</a>
-            <div class="overlay"></div>
-        </div>
-    </header>
-    <section id="about" class="content-section bg-light">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead mb-5"><span>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at&nbsp;</span><a href="https://unsplash.com/">Unsplash</a><span>!</span></p><a class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="#services">What We Offer</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services" class="content-section bg-primary text-white text-center">
-        <div class="container">
-            <div class="content-section-heading">
-                <h3 class="text-secondary mb-0">Services</h3>
-                <h2 class="mb-5">What We Offer</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-screen-smartphone"></i></span>
-                    <h4><strong>Responsive</strong></h4>
-                    <p class="mb-0 text-faded">Looks great on any screen size!</p>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-pencil"></i></span>
-                    <h4><strong>Redesigned</strong></h4>
-                    <p class="mb-0 text-faded">Freshly redesigned for Bootstrap 5.</p>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-like"></i></span>
-                    <h4><strong>Favorited</strong></h4>
-                    <p class="mb-0 text-faded"><span>Milions of users&nbsp;</span><i class="fa fa-heart"></i><span>&nbsp;us!</span></p>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-mustache"></i></span>
-                    <h4><strong>Question</strong></h4>
-                    <p class="mb-0 text-faded">I mustache you a question...</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="callout" style="background:linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(&quot;assets/img/bg-callout.jpg&quot;);background-position:center center;background-repeat:no-repeat;background-size:cover;">
-        <div class="container text-center">
-            <h2 class="mx-auto mb-5"><span>Welcome to&nbsp;</span><em>your</em><span><br>next website!<br></span></h2><a class="btn btn-primary btn-xl" role="button" href="#">Download Now!</a>
-        </div>
-    </section>
-    <section id="portfolio" class="content-section">
-        <div class="container">
-            <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Portfolio</h3>
-                <h2 class="mb-5">Recent Projects</h2>
-            </div>
-            <div class="row g-0">
-                <div class="col-lg-6"><a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Stationary</h2>
-                                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-1.jpg">
-                    </a></div>
-                <div class="col-lg-6"><a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Ice Cream</h2>
-                                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-2.jpg">
-                    </a></div>
-                <div class="col-lg-6"><a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Strawberries</h2>
-                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-3.jpg">
-                    </a></div>
-                <div class="col-lg-6"><a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Workspace</h2>
-                                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-4.jpg">
-                    </a></div>
-            </div>
-        </div>
-    </section>
-    <section class="content-section bg-primary text-white">
-        <div class="container text-center">
-            <h2 class="mb-4">The buttons below are impossible to resist..</h2><a class="btn btn-light btn-xl me-4" role="button" href="#">Click Me!</a><a class="btn btn-dark btn-xl me-4" role="button" href="#">Look at Me</a>
-        </div>
-    </section>
-    <section id="contact" class="map"><iframe allowfullscreen="" frameborder="0" src="https://cdn.bootstrapstudio.io/placeholders/map.html" width="100%" height="400"></iframe></section>
-    <footer class="footer text-center">
-        <div class="container">
-            <ul class="list-inline mb-5">
-                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="#"><i class="icon-social-facebook"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="#"><i class="icon-social-twitter"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="#"><i class="icon-social-github"></i></a></li>
-            </ul>
-            <p class="text-muted mb-0 small">Copyright &nbsp;© Brand 2022</p>
-        </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
-    </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/stylish-portfolio.js"></script>
-</body>
+            <!-- <label for="check" class="checkbtn">
+              <i class="fa-solid fa-bars"></i>
+            </label> -->
+            
+            
+        </nav>
+        <!-- <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label> -->
+      </section>
 
+        <!-- ****************************header end************************* -->
+
+      <!-- <section class="text-gray-600 body-font" style="user-select: auto; background-color:rgba(199, 214, 219, 0.821);">
+        <div class="container mx-auto flex px-5 py-10 items-center justify-center flex-col" style="user-select: auto;">
+          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded " alt="hero" src="https://dummyimage.com/720x600" style="user-select: auto;">
+          <div class="text-center lg:w-2/3 w-full" style="user-select: auto;">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-sans" style="user-select: auto;">Bringing you the most the efficent society of Jabalpur Engineering College</h1>
+            <p class="mb-8 leading-relaxed font-italics" style="user-select: auto;  ">We orgainze events, do fests, do everything under the sun excpet coding which ironically should be our primary focus but thats just the paradox of life. We have a great network of alumni and we are actively connected to them. Join us to be the part of the legacy.</p>
+
+          </div>
+        </div>
+      </section> --> 
+
+
+      <!-- ***********************************Carousel************************************* -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active slide-two " data-bs-interval="5000">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                        <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">Welcome To JLUG</h1>
+                        <p class="animate__animated animate__lightSpeedInRight animate__delay-2s">The tech society of Jabalpur Engineering College</p>
+                        <!-- <button type="button" class="animate__animated animate__jackInTheBox animate__delay-5s">Read More</button> -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-box">
+                          <img src="images/img-1.png" class="img-one animate__animated animate__zoomIn animate__delay-1s">
+                          <img src="images/img-2.png" class="img-two  animate__animated animate__fadeInLeft animate__delay-4s">
+                          <img src="images/img-3.png" class="img-three animate__animated animate__zoomIn animate__delay-3s">
+                          <img src="images/img-4.png" class="img-four animate__animated animate__fadeInDown animate__delay-3s">
+                          <img src="images/img-5.png" class="img-five animate__animated animate__fadeInRight animate__delay-4s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item slide-one" data-bs-interval="5000">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">What We Do In JLUG</h1>
+                        <p class="animate__animated animate__lightSpeedInRight animate__delay-2s">We create great tech minds</p>
+                        <!-- <button type="button" class="animate__animated animate__jackInTheBox animate__delay-5s">Read More</button> -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-box">
+                          <img src="images/pic-1.png" class="pic-one animate__animated animate__zoomIn animate__delay-1s">
+                          <img src="images/pic-2.png" class="pic-two animate__animated animate__fadeInLeft animate__delay-4s">
+                          <img src="images/pic-3.png" class="pic-three animate__animated animate__fadeInUp animate__delay-3s">
+                          <img src="images/pic-4.png" class="pic-four animate__animated animate__fadeInDown animate__delay-3s">
+                          <img src="images/pic-5.png" class="pic-five animate__animated animate__fadeInRight animate__delay-4s">
+                          <img src="images/pic-6.png" class="pic-six animate__animated animate__jackInTheBox animate__delay-5s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button> -->
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <!-- **************************************carousel end************************************* -->
+
+      <!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+  <!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 text-gray-800 text-center" id="aboutUs">
+    <h2 class="text-3xl font-bold mb-12">Why is it so<u class="text-blue-600"> great?</u></h2>
+    <div class="grid md:grid-cols-3 lg:gap-x-12">
+      <div class="mb-12 md:mb-0">
+        <div class="p-4 bg-blue-600 rounded-lg shadow-lg inline-block mb-6">
+          <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"
+              d="M192 208c0-17.67-14.33-32-32-32h-16c-35.35 0-64 28.65-64 64v48c0 35.35 28.65 64 64 64h16c17.67 0 32-14.33 32-32V208zm176 144c35.35 0 64-28.65 64-64v-48c0-35.35-28.65-64-64-64h-16c-17.67 0-32 14.33-32 32v112c0 17.67 14.33 32 32 32h16zM256 0C113.18 0 4.58 118.83 0 256v16c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-16c0-114.69 93.31-208 208-208s208 93.31 208 208h-.12c.08 2.43.12 165.72.12 165.72 0 23.35-18.93 42.28-42.28 42.28H320c0-26.51-21.49-48-48-48h-32c-26.51 0-48 21.49-48 48s21.49 48 48 48h181.72c49.86 0 90.28-40.42 90.28-90.28V256C507.42 118.83 398.82 0 256 0z">
+            </path>
+          </svg>
+        </div>
+        <h5 class="text-lg font-bold mb-4">Networking 24/7</h5>
+        <p class="text-gray-500">
+          The most benefical part of college is to interact with great minded poeple and this society helps you to bridge the gap between from a student to a great student.
+        </p>
+      </div>
+
+      <div class="mb-12 md:mb-0">
+        <div class="p-4 bg-blue-600 rounded-lg shadow-lg inline-block mb-6">
+          <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"
+              d="M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256.1 446.3l-.1-381 175.9 73.3c-3.3 151.4-82.1 261.1-175.8 307.7z">
+            </path>
+          </svg>
+        </div>
+        <h5 class="text-lg font-bold mb-4">Safe Bootcamps</h5>
+        <p class="text-gray-500">
+          As we all know the threat of cyber security is being raised day by day, so we should be a great coder to prevent our code from being incrypted with virus and bugs.
+        </p>
+      </div>
+
+      <div class="mb-12 md:mb-0">
+        <div class="p-4 bg-blue-600 rounded-lg shadow-lg inline-block mb-6">
+          <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path fill="currentColor"
+              d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H112C85.5 0 64 21.5 64 48v48H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h272c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z">
+            </path>
+          </svg>
+        </div>
+        <h5 class="text-lg font-bold mb-4">Fast Events</h5>
+        <p class="text-gray-500">
+          To make your enthusaism in college we try to orgainze events as fast as possible, so that you can learn from the events and also to manage that events.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+
+  <!-- Section: Design Block -->
+
+
+</div>
+<!-- Container for demo purpose -->
+
+
+
+      <!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 text-gray-800 text-center lg:text-left" id="pastEvents">
+    <h2 class="text-3xl font-bold mb-12 text-center">Past Events</h2>
+
+    <div class="grid lg:grid-cols-3 gap-x-6">
+      <div class="mb-12 lg:mb-0">
+        <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
+          style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
+          <img src="images/engineers day -03.jpg" class="w-full " />
+          <a href="#!">
+            <div
+              class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+              style="background-color: rgba(251, 251, 251, 0.2)"></div>
+          </a>
+        </div>
+        <h5 class="text-lg font-bold mb-3">LinkedIn Session</h5>
+        <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center lg:justify-start">
+          
+        </div>
+        <p class="text-gray-500">
+          It was an informative session hosted by Mohammad Usaid Sir, he introduced us with  various networking styles.
+        </p>
+      </div>
+
+      <div class="mb-12 lg:mb-0">
+        <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
+          style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
+          <img src="images/jlug 1.jpeg" class="w-full" />
+          <a href="#!">
+            <div
+              class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+              style="background-color: rgba(251, 251, 251, 0.2)"></div>
+          </a>
+        </div>
+
+        <h5 class="text-lg font-bold mb-3">Alma Matters</h5>
+        <div class="mb-3 text-blue-600 font-medium text-sm flex items-center justify-center lg:justify-start">
+        </div>
+        <p class="text-gray-500">
+          It was the one of the promient event introduced by JLUG, as we founded a new society Jabalpur Engineering College Student Committee(JECSC) and created new heights for alumni connections.
+        </p>
+      </div>
+
+      <div class="mb-0">
+        <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
+          style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
+          <img src="images/engineer_s day.jpg" class="h-auto w-auto" />
+          <a href="#!">
+            <div
+              class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+              style="background-color: rgba(251, 251, 251, 0.2)"></div>
+          </a>
+        </div>
+
+        <h5 class="text-lg font-bold mb-3">National Engineering Day</h5>
+        <div class="mb-3 text-yellow-500 font-medium text-sm flex items-center justify-center lg:justify-start">            
+        </div>
+        <p class="text-gray-500">
+          We celeberated engineers day in Jashn hall where we invited a guest lecturer and orgainzed a poster making compedition and gave awesome prize to the winners.
+        </p>
+      </div>
+    </div>
+
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+
+<!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 text-gray-800 text-center" id="team">
+    <h2 class="text-3xl font-bold mb-12">Meet the <u class="text-blue-600">team</u></h2>
+
+    <div class="grid md:grid-cols-3 xl:grid-cols-4 gap-x-6 lg:gap-xl-12">
+      <div class="mb-12">
+        <img src="images/Samveg sir.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+
+        <p class="font-bold mb-2">SAMVEG SHANDILYA</p>
+        <p class="text-gray-500">PRESIDENT</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/Preeti Maam.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+
+        <p class="font-bold mb-2">PREETI PATEL</p>
+        <p class="text-gray-500">VICE PRESIDENT</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/suhani maam.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">SUHANI YADAV</p>
+        <p class="text-gray-500">JOINT SECRETARY</p>
+      </div>
+      <div class="mb-12">
+        <img src="images/rishabh sir.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">RISHABH SOLANKI</p>
+        <p class="text-gray-500">GENERAL SECRETARY</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/sidiquee sir.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">SIDDIQUE AHMED</p>
+        <p class="text-gray-500">OPERATIONAL HEAD</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/arpit sir.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">ARPIT KHANNA</p>
+        <p class="text-gray-500">CULTURAL HEAD</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/MUSTKEEM SIR.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">MUSTKEEM ARSH</p>
+        <p class="text-gray-500">OPERATIONS TEAM HEAD</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/1bd86083-912b-4c88-9cb2-2d956456a48f.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">KLEVIN PASCAL</p>
+        <p class="text-gray-500">GRAPHICS TEAM HEAD</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/SAKET SIR.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">SAKET GUPTA</p>
+        <p class="text-gray-500">PUBLIC RELATIONS HEAD</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/ASHWIN SIR.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">ASHWIN PATEL</p>
+        <p class="text-gray-500">MARKETING HEAD</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/e1644fa0-726d-4fa9-b470-d0f0718387b6.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">RITIK PATEL</p>
+        <p class="text-gray-500">CURATION TEAM HEAD</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="images/AKSHAT SIR.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style="max-width: 100px" />
+        <p class="font-bold mb-2">AKSHAT BANSAL</p>
+        <p class="text-gray-500">CONTENT TEAM HEAD</p>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+
+
+
+
+      
+
+      <footer>
+        <div class="footer-content" id="contactUs">
+            <h3>JEC Linux User Club</h3>
+            <p>Those Who Are Interested In Joinig JEC Linux User Club,</p>
+            <p>JOIN THE WhatsApp GROUP BY CLICKING THE ICON BELOW.</p>
+            <ul class="socials">
+                <!-- <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-twitter"></i> </a></li> -->
+                <li><a href="https://chat.whatsapp.com/Be2HCdISbO6ClfOQcXgD3C"><i class="fa-brands fa-whatsapp"></i></a></li>
+              
+
+            </ul>
+
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 JLUG. designed by Aasit, Harshit, Anushk , Sajal, Suyash</p>
+        </div>
+    </footer>
+
+    
+
+
+</body>
 </html>
